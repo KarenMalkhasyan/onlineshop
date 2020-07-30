@@ -14,16 +14,15 @@
 
 <body>
 
-  <header>
-    <div class="container">
+  <div class="container">
       <div class="row">
 
         <div class="col-3 d-none d-lg-block">
-          <h5>Some text</h5>
+          <h5>Welcome!</h5>
         </div>
 
         <div class="col-3 d-none d-lg-block">
-          <h5>tttttttttttttttttttt</h5>
+          <h5>Phone` +374-99-85-37-37</h5>
         </div>
 
         <div class="col-6 col-lg-2 ">
@@ -50,7 +49,7 @@
 
       <nav class="navbar navbar-dark bg-dark">
         <div class="col-5">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Computer.svg/1200px-Computer.svg.png" width="90px">
+          <img src="https://i.pinimg.com/originals/59/6a/d3/596ad34f6560bcd5032e1d262ab77071.jpg" width="90px">
         </div>
         <div class="col-5 d-none d-lg-block">
           <form class="form-inline">
@@ -63,12 +62,12 @@
             My Account
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
-            <a class="dropdown-item" href="#" data-toggle="register" data-target="exampleRegister">Register</a>
-            <a class="dropdown-item" href="#">My orders</a>
-            <a class="dropdown-item" href="#">Accout Setings</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">Login</a>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#registerModal">Register</a>
+            <a class="dropdown-item" href="MyInfo.html">My Info</a>
+            <a class="dropdown-item" href="MyAccountSettings.html">Accout Setings</a>
           </div>
-        </diV>
+        </div>
       </nav>
 
       <nav class="navbar navbar-light" style="background-color: CornflowerBlue">
@@ -77,7 +76,7 @@
             Numbers 1
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">1</a>
+            <a class="dropdown-item" href="shop.html">Tap here</a>
             <a class="dropdown-item" href="#">2</a>
             <a class="dropdown-item" href="#">3</a>
           </div>
@@ -119,7 +118,7 @@
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">1</a>
             <a class="dropdown-item" href="#">2</a>
-            <a class="dropdown-item" href="#">3<a />
+            <a class="dropdown-item" href="#">3</a>
           </div>
         </div>
         <div class="dropdown">
@@ -135,9 +134,8 @@
 
     </div>
     </div>
-  </header>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -165,11 +163,11 @@
     </div>
   </div>
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Register</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -235,100 +233,29 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Save changes</button>
+       
         </div>
       </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-row" data-toggle="modal" data-target="#register">
-              <div class="col-md-6 mb-3">
-                <label for="validationServer01">First name</label>
-                <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="validationServer02">Last name</label>
-                <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
-                <div class="valid-feedback">
-                  Looks good!
-                </div>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="col-md-6 mb-3">
-                <label for="validationServer03">City</label>
-                <input type="text" class="form-control is-invalid" id="validationServer03" required>
-                <div class="invalid-feedback">
-                  Please provide a valid city.
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <label for="validationServer04">State</label>
-                <select class="custom-select is-invalid" id="validationServer04" required>
-                  <option selected disabled value="">Choose...</option>
-                  <option>...</option>
-                </select>
-                <div class="invalid-feedback">
-                  Please select a valid state.
-                </div>
-              </div>
-              <div class="col-md-3 mb-3">
-                <label for="validationServer05">Zip</label>
-                <input type="text" class="form-control is-invalid" id="validationServer05" required>
-                <div class="invalid-feedback">
-                  Please provide a valid zip.
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-                <label class="form-check-label" for="invalidCheck3">
-                  Agree to terms and conditions
-                </label>
-                <div class="invalid-feedback">
-                  You must agree before submitting.
-                </div>
-              </div>
-            </div>
-            <button class="btn btn-primary" type="submit">Register</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
       </div>
-    </div>
-  </div>
+      </div>
 
+      <div class="container">
+        
   <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="index.html">Home</a></li>
       <li class="breadcrumb-item active" aria-current="page">Product</li>
     </ol>
   </nav>
+</div>
 
-  <h1 class="h1">BMW M5 F90</h1>
 
   <br>
 
   <div class="container">
     <div class="row">
       <div class="col-6">
+        <h1 class="h1">BMW M5 F90</h1>
         <div class="row">
           <div class="col-3">
             <a data-fancybox="gallery" href="https://media.fastestlaps.com/bmw-m5-g30.jpg?300x200"><img src="https://media.fastestlaps.com/bmw-m5-g30.jpg?300x200" class="img-fluid"></a>
@@ -353,20 +280,15 @@
         </div>
   
         <select class="custom-select">
-          <option selected>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option selected>Select year</option>
+          <option value="1">2016</option>
+          <option value="1">2017</option>
+          <option value="2">2018</option>
+          <option value="1">2019</option>
+          <option value="3">2020</option>
         </select>
   
-        <div class="custom-control custom-switch">
-          <input type="checkbox" class="custom-control-input" id="customSwitch1">
-          <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
-        </div>
-        <div class="custom-control custom-switch">
-          <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
-          <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
-        </div>
+        
       </div>
     </div>
         <a href="addtocart.html"><button  class="btn btn-success">Add to cart</button></a>
@@ -380,23 +302,24 @@
   <br>
   <br>
 
+  <div style="text-align: center;">
   <p>
-    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Specifications 1</a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Specifications 2</button>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Hide Specificatoins</button>
   </p>
   <div class="row">
     <div class="col">
       <div class="collapse multi-collapse" id="multiCollapseExample1">
         <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          The F90 M5 accelerates from a standstill to 100 km/h (62 mph) in 3.4 seconds, and to 200 km/h (124 mph) in 11.1 seconds. In Imperial measurements 60 mph (97 km/h) is reached in 2.8 seconds and 100 mph (161 km/h) in 6.6 seconds. The top speed is limited to 250 km/h (155 mph), and the delimited top speed is 305 km/h (190 mph) with the optional M Driver's Package.
         </div>
       </div>
     </div>
     <div class="col">
       <div class="collapse multi-collapse" id="multiCollapseExample2">
         <div class="card card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+          The F90 M5 accelerates from a standstill to 100 km/h (62 mph) in 3.4 seconds, and to 200 km/h (124 mph) in 11.1 seconds. In Imperial measurements 60 mph (97 km/h) is reached in 2.8 seconds and 100 mph (161 km/h) in 6.6 seconds. The top speed is limited to 250 km/h (155 mph), and the delimited top speed is 305 km/h (190 mph) with the optional M Driver's Package.
         </div>
       </div>
     </div>
@@ -408,12 +331,17 @@
     </p>
   </div>
 
+</div>
+
   <br>
   <br>
   <br>
 
   <div class="container">
-    <div class="row col-6">
+    <div class="row">
+      <div class="col-5">
+
+      </div>
       <nav aria-label="Page navigation example">
         <ul class="pagination">
           <li class="page-item"><a class="page-link" href="#">Previous</a></li>
